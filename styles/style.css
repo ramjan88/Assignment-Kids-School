@@ -1,6 +1,59 @@
-*{
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-style: normal;
+}
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+header,
+main {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+/* ---------------header style part-------------- */
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.nav-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-link ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.nav-link a {
+  text-decoration: none;
+}
+
+/* ---------------share style part-------------- */
+
+.color-primary {
+  color: rgb(254, 163, 1);
+}
+
+.btn-primary {
+  padding: 10px 30px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background-color: rgb(254, 163, 1);
+  color: white;
+}
+/* ---------------main style part-------------- */
+
+/* ---------------footer style part-------------- */
