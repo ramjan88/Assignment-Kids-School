@@ -31,13 +31,24 @@ main {
   gap: 10px;
 }
 
+.nav-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: rgb(17, 17, 17);
+}
+
 .nav-link ul {
   display: flex;
   list-style: none;
-  gap: 20px;
+  gap: 30px;
 }
 .nav-link a {
   text-decoration: none;
+  font-weight: 600;
+}
+.side-bar {
+  display: none;
+  font-size: 30px;
 }
 
 /* ---------------share style part-------------- */
@@ -46,14 +57,40 @@ main {
   color: rgb(254, 163, 1);
 }
 
+.color-secondary {
+  color: rgb(1, 172, 253);
+}
+
+.color-tertiary {
+  color: rgb(93, 88, 239);
+}
+
 .btn-primary {
-  padding: 10px 30px;
+  padding: 10px 40px;
   border-radius: 8px;
+  font-weight: 500;
   border: none;
   outline: none;
   background-color: rgb(254, 163, 1);
   color: white;
+  cursor: pointer;
 }
 /* ---------------main style part-------------- */
 
 /* ---------------footer style part-------------- */
+
+/* -----------Small device-------------- */
+
+@media only screen and (max-width: 576px) {
+  .nav-container {
+    padding: 10px 25px;
+    border-bottom: 1px solid orange;
+  }
+  .nav-propartise {
+    display: none;
+  }
+
+  .side-bar {
+    display: block;
+  }
+}
