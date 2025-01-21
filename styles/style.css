@@ -53,6 +53,17 @@ main {
   cursor: pointer;
 }
 
+section {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
 /* ---------------header style part-------------- */
 
 /* nav style part */
@@ -119,6 +130,18 @@ main {
 }
 
 /* ---------------main style part-------------- */
+/* card-section */
+.card-section {
+  background-image: url(../images/bg.png);
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
 
 /* ---------------footer style part-------------- */
 
