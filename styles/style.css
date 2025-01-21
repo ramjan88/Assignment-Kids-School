@@ -212,11 +212,6 @@ section {
 @media only screen and (max-width: 576px) {
   /*----- header section ----*/
 
-  header,
-  main {
-    padding: 20px;
-  }
-
   /* nav part */
   .nav-container {
     padding: 10px 25px;
@@ -233,6 +228,7 @@ section {
   /* banner part */
   .banner {
     flex-direction: column-reverse;
+    padding: 20px;
     text-align: center;
   }
 
@@ -241,7 +237,9 @@ section {
   }
 
   /* ------main section -----*/
-
+  main {
+    padding: 20px;
+  }
   /* curriculam section */
   .cards {
     grid-template-columns: repeat(1, 1fr);
