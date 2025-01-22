@@ -205,6 +205,53 @@ section {
   border-radius: 50%;
 }
 
+/* -----Stories section------ */
+
+.stories-section {
+  background: url(../images/bg.png),
+    linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+}
+
+.stories-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  text-align: left;
+}
+
+.highlight-card {
+  grid-row: span 2;
+  background-color: #ffffff;
+}
+
+.highlight-card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.story-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.story-content {
+  padding: 10px 30px 30px 30px;
+}
+.story-content h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 2rem;
+}
+
+.story-card img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
 /* ---------------footer style part-------------- */
 
 /* -----------Small device-------------- */
