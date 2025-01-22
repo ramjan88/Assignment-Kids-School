@@ -442,4 +442,19 @@ footer {
     font-size: 0.647rem;
     line-height: 1.25rem;
   }
+
+  /* --------footer section----------- */
+
+  .footer-container {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 70px 20px;
+  }
+
+  .contact-link {
+    padding-left: 0px;
+  }
+
+  .social-contact {
+    padding-left: 0px;
+  }
 }
