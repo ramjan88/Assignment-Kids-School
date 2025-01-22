@@ -9,8 +9,7 @@
   box-sizing: border-box;
 }
 
-header,
-main {
+header {
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -138,6 +137,11 @@ section {
   object-fit: cover;
 }
 
+.curriculum-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -215,6 +219,11 @@ section {
   object-fit: cover;
 }
 
+.story-section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .stories-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -225,6 +234,14 @@ section {
 .highlight-card {
   grid-row: span 2;
   background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.story-discription {
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgb(102, 102, 102);
+  line-height: 1.85rem;
 }
 
 .highlight-card img {
@@ -240,16 +257,38 @@ section {
 .story-content {
   padding: 10px 30px 30px 30px;
 }
+
 .story-content h4 {
   font-size: 1.25rem;
   font-weight: 700;
   line-height: 2rem;
 }
 
+.highlight-card h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 10px 30px 50px 0px;
+}
+
 .story-card img {
   width: 100%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+}
+
+.date {
+  padding: 10px 15px;
+  background-color: aqua;
+  font-size: 1rem;
+  color: #ffffff;
+  border-radius: 30px;
+  display: inline-block;
+  top: -35px;
+  position: relative;
+}
+
+.story-btn {
+  margin-top: 60px;
 }
 
 /* ---------------footer style part-------------- */
