@@ -28,6 +28,16 @@ header {
   color: rgb(93, 88, 239);
 }
 
+.bg-primary {
+  background-color: rgb(149, 178, 38);
+}
+.bg-secondary {
+  background-color: rgb(93, 88, 240);
+}
+.bg-tertiary {
+  background-color: rgb(60, 216, 232);
+}
+
 .btn-primary {
   padding: 10px 40px;
   border-radius: 8px;
@@ -278,7 +288,6 @@ section {
 
 .date {
   padding: 10px 15px;
-  background-color: aqua;
   font-size: 1rem;
   color: #ffffff;
   border-radius: 30px;
