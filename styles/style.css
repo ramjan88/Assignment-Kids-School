@@ -313,6 +313,12 @@ section {
   margin-top: 60px;
 }
 
+marquee {
+  background-color: #ffffff;
+  color: rgba(154, 20, 198, 0.782);
+  font-weight: 600;
+}
+
 /* ---------------footer style part-------------- */
 footer {
   background-color: rgb(1, 172, 253);
